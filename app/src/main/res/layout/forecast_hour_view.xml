@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".current.ui.CurrentForecastActivity">
+
+    <ImageView
+            android:id="@+id/hour_weather_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            tools:src="@drawable/ic_cloudy"
+            tools:tint="@android:color/black"/>
+
+    <TextView
+            android:id="@+id/hour_view"
+            style="@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@tools:sample/date/hhmm"/>
+
+    <TextView
+            android:id="@+id/hour_temperature_view"
+            style="@style/Text"
+            android:textStyle="bold"
+            android:textSize="@dimen/forecast_temperature_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="10"/>
+</LinearLayout>

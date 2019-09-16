@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Forecast</string>
+
+    <string name="forecast_activity_title">Forecast</string>
+
+    <string name="error_loading_forecast">Problem with loading forecast</string>
+    <string name="error_no_forecast_found">No forecast found</string>
+    <string name="error_no_forecast_found_back_text">Go back?</string>
+
+    <string name="error_loading_reload_action">Try again?</string>
+
+    <string name="forecast_fallback_string">-</string>
+
+    <string name="forecast_wind_title">Wind:</string>
+    <string name="forecast_humidity_title">Humidity:</string>
+    <string name="forecast_dew_title">Dew PT:</string>
+    <string name="forecast_uv_title">UV Index:</string>
+    <string name="forecast_visibility_title">Visibility:</string>
+    <string name="forecast_pressure_title">Pressure:</string>
+</resources>

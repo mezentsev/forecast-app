@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="main_text_size">14sp</dimen>
+    <dimen name="forecast_temperature_size">18sp</dimen>
+    <dimen name="forecast_summary_size">32sp</dimen>
+    <dimen name="forecast_time_size">18sp</dimen>
+</resources>

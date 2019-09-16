@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="7dp"
+        android:padding="10dp"
+        tools:parentTag="android.widget.FrameLayout">
+
+    <LinearLayout
+            android:id="@+id/forecast_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alpha="0"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:alpha="1">
+
+        <TextView
+                android:id="@+id/forecast_place"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@tools:sample/cities" />
+
+        <TextView
+                android:id="@+id/forecast_time"
+                style="@style/Text.Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@tools:sample/date/hhmm" />
+
+        <include layout="@layout/forecast_summary_view" />
+
+        <include layout="@layout/forecast_details_view" />
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/hourly_forecast_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                tools:itemCount="3"
+                tools:listitem="@layout/forecast_hour_view" />
+
+    </LinearLayout>
+</merge>

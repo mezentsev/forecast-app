@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:parentTag="android.widget.FrameLayout">
+
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+            <TextView
+                    android:id="@+id/wind_title"
+                    style="@style/Text.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forecast_wind_title" />
+
+            <TextView
+                    android:id="@+id/wind_view"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@tools:sample/date/day_of_week" />
+
+            <TextView
+                    android:id="@+id/humidity_title"
+                    style="@style/Text.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forecast_humidity_title" />
+
+            <TextView
+                    android:id="@+id/humidity_view"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@tools:sample/date/day_of_week" />
+
+            <TextView
+                    android:id="@+id/dew_title"
+                    style="@style/Text.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forecast_dew_title" />
+
+            <TextView
+                    android:id="@+id/dew_view"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@tools:sample/date/day_of_week" />
+
+            <TextView
+                    android:id="@+id/uv_title"
+                    style="@style/Text.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forecast_uv_title" />
+
+            <TextView
+                    android:id="@+id/uv_view"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@tools:sample/date/day_of_week" />
+
+            <TextView
+                    android:id="@+id/visibility_title"
+                    style="@style/Text.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forecast_visibility_title" />
+
+            <TextView
+                    android:id="@+id/visibility_view"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@tools:sample/date/day_of_week" />
+
+            <TextView
+                    android:id="@+id/pressure_title"
+                    style="@style/Text.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forecast_pressure_title" />
+
+            <TextView
+                    android:id="@+id/pressure_view"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dsdsasadffdsfsdfdds"
+                    tools:text="@tools:sample/date/day_of_week" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</merge>
